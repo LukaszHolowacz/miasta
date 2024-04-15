@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/gdynia"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Gdynia"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="60sp"
+            android:background="@drawable/gdynia"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/gdansk"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Gdańsk"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="60sp"
+            android:background="@drawable/gdansk"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/sopot"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Sopot"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="60sp"
+            android:background="@drawable/sopot2"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="autor: Łukasz Hołowacz"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#808080"
+        android:padding="16dp" />
+</RelativeLayout>
